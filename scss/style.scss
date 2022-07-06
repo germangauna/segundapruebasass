@@ -1,23 +1,17 @@
+
+/* variables*/
+
+$bg-home: blue;
+$border-menu: 2px dotted gray;
+$decoration: underline;
+
+
+
+
+
+
 /*nesting o anidamiento escribir en cascada*/
 
-.header{
-    background-color: black;
-    nav {
-        border: 2px solid blue;
-        ul{
-            list-style: circle;
-            li{
-                a{
-                    text-decoration: none;
-                    /*  & */
-                    &:hover{
-                        text-decoration: underline;
-                    }
-                }
-            }
-        }
-    }
-    @media screen and (max-width: 490px){
-        background-color: orange;
-    }
-} 
+
+
+

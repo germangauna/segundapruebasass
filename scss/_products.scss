@@ -1,0 +1,26 @@
+.productos-home {
+    background-color: $bg-home;
+
+    nav {
+        border: $border-menu;
+
+        ul {
+            list-style: circle;
+
+            li {
+                a {
+                    text-decoration: none;
+
+                    /*  & */
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 490px) {
+        background-color: orange;
+    }
+}

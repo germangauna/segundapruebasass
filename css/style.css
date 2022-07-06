@@ -1,24 +1,4 @@
+/* variables*/
 /*nesting o anidamiento escribir en cascada*/
-.header {
-  background-color: black;
-}
-.header nav {
-  border: 2px solid blue;
-}
-.header nav ul {
-  list-style: circle;
-}
-.header nav ul li a {
-  text-decoration: none;
-  /*  & */
-}
-.header nav ul li a:hover {
-  text-decoration: underline;
-}
-@media screen and (max-width: 490px) {
-  .header {
-    background-color: orange;
-  }
-}
 
 /*# sourceMappingURL=style.css.map */
